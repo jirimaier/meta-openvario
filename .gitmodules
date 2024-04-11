@@ -10,3 +10,6 @@
 [submodule "meta-sunxi"]
 	path = meta-sunxi
 	url = https://github.com/linux-sunxi/meta-sunxi.git
+[submodule "openvario-ppa"]
+	path = openvario-ppa
+	url = https://github.com/kedder/openvario-ppa.git
