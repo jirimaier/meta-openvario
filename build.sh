@@ -23,3 +23,6 @@ printf "#!/bin/sh\nsource openembedded-core/oe-init-build-env .\nexport MACHINE=
 
 # Start the Docker container in detached mode
 docker compose run --rm dev
+
+cd ../..
+cp ./copy-of-meta-openvario/OpenVario-linux-openvario-image-ovshell-glibc-ipk-current-openvario-7-CH070.rootfs.img.gz ./meta-openvario/OpenVario-linux-openvario-image-ovshell-glibc-ipk-current-openvario-7-CH070.rootfs.img.gz
