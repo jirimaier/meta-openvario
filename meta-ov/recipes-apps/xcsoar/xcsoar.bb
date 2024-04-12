@@ -7,6 +7,6 @@ RCONFLICTS:${PN}="xcsoar-testing"
 SRC_URI = "git://github.com/jirimaier/XCSoar.git;protocol=https;branch=LX-Eos-Driver \
 "
 
-SRCREV = "702b8396a8cb465c57e8e657b65d3353b2cf75ab"
+SRCREV = "9630545bac211b10544fc7ad6877ccf27491c979"
 
 require xcsoar.inc
