@@ -26,3 +26,6 @@ docker compose run --rm dev
 
 cd ../..
 cp ./copy-of-meta-openvario/OpenVario-linux-openvario-image-ovshell-glibc-ipk-current-openvario-7-CH070.rootfs.img.gz ./meta-openvario/OpenVario-linux-openvario-image-ovshell-glibc-ipk-current-openvario-7-CH070.rootfs.img.gz
+
+cd ..
+rm -rf ./copy-of-meta-openvario
